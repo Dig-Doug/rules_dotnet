@@ -587,7 +587,7 @@ def csharp_repositories(use_local_mono=False):
 
   native.new_http_archive(
       name = "nuget",
-      url = "https://github.com/mono/nuget-binary/archive/58f8910c57d2758c7adff90abaf75c06afd8980e.zip", # Sept 6, 2016
+      url = "https://github.com/mono/nuget-binary/archive/58f8910c57d2758c7adff90abaf75c06afd8980e.zip", # Nov 22, 2016
       sha256 = "210930967c5aceba688d9c37aee5953292f3c2ca40d045bc47e64300eb45ecae",
       strip_prefix = "nuget-binary-58f8910c57d2758c7adff90abaf75c06afd8980e",
       type = "zip",
